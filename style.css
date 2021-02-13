@@ -24,8 +24,16 @@
   transform-style: preserve-3d;
   backface-visibility: hidden;
   border-radius: 4px;
+  /*box-shadow: -6px -4px 29px -7px rgba(0,0,0,0.75);*/
+
 
   /*box-shadow: 0 0 0 1px #e3dfd8;*/
+}
+.book .pages.shadow {
+  box-shadow: -7px 22px 46px 9px rgba(0,0,0,1);
+}
+.book .page.start.shadow, .book .page.end.shadow {
+  box-shadow: -7px 22px 46px 9px rgba(0,0,0,1);
 }
 .book .page {
   float: none;
@@ -134,13 +142,16 @@
 html,
 body {
   
-  background: #333;
+
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 html {
   height: 100%;
 }
 body {
+  background-image: url('/images/background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   min-height: 100%;
   display: flex;
   justify-content: center;
