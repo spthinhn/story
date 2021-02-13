@@ -42,10 +42,18 @@
   cursor: pointer;
   user-select: none;
   background-color: #f0f0f0;
-  padding: 2px;
+  padding: 5px;
+}
+.book .page .footer {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+}
+.book .page .footer h6{
+  margin: 0px;
 }
 .book .page .content {
-  padding: 2px;
+  padding: 5px;
 }
 .book .page .content p {
   margin: 0px;
@@ -142,7 +150,7 @@ body {
   line-height: 2.5vw;
 }
 .chapter {
-  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Brush Script MT', cursive;
 }
 .page:nth-child(odd){
   background-position: right top;
