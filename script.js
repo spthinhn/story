@@ -77,7 +77,7 @@ function loadPage(page) {
 }
 
 function initPages() {
-  // loadPage(first);
   document.getElementById("start").classList.add('shadow');
-  initPageActions();
+  loadPage(first);
+  // initPageActions();
 }
