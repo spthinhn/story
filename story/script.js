@@ -78,6 +78,6 @@ function loadPage(page) {
 
 function initPages() {
   document.getElementById("start").classList.add('shadow');
-  loadPage(first);
-  // initPageActions();
+  // loadPage(first);
+  initPageActions();
 }
