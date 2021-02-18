@@ -41,7 +41,6 @@ function initPageActions() {
           } else {
             document.getElementById("pages").classList.add('shadow');
           }
-          console.log(this.pageNum)
           if ((this.pageNum+1) == end) {
             document.getElementById("end").classList.add('shadow');
           }

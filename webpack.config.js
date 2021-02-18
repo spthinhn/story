@@ -21,7 +21,7 @@ plugins.push(new HtmlWebpackPartialsPlugin({
     template_filename: ["index.html"],
     minify: true
 }),);
-for(let i = 1; i <= 12; i++) {
+for(let i = 1; i <= 16; i++) {
     let location = "page"+i;
     let pathPartials = i+".html";
     plugins.push(new HtmlWebpackPartialsPlugin({
